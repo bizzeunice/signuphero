@@ -38,7 +38,7 @@ app.post("/", (req, res) => {
     let url = `https://${dc}.api.mailchimp.com/3.0/lists/${listId}`;
     let options = {
         method: "POST",
-        auth: "eunice1:436ac291237ec61ddccd9122e00ff331-us13"
+        auth: "eunice1:a76410b3d490155a108a06b1c47e2be0-us13"
     };
 
     let request = https.request(url, options, (response) => {
@@ -72,6 +72,6 @@ app.listen(process.env.PORT || 3000, () => {
 
 
 // // API key
-// // 436ac291237ec61ddccd9122e00ff331-us13
+// // a76410b3d490155a108a06b1c47e2be0-us13
 // //Audience id
 // // d722819631
